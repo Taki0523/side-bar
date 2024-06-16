@@ -1,0 +1,31 @@
+# 忽略所有隱藏文件和目錄
+.*
+
+# 忽略 Windows 系統文件和目錄
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+pagefile.sys
+swapfile.sys
+*.log
+
+# 忽略特定應用程序文件和目錄
+node_modules/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# 忽略特定用戶目錄
+AppData/
+*.7z
+*.zip
+
+# 忽略網站構建文件和目錄
+dist/
+build/
+out/
